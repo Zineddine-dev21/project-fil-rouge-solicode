@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F3F4FA;
+  color: #14142B;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, .logo {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+h1 { font-size: 48px; line-height: 1.1; }
+h2 { font-size: 32px; }
+h3 { font-size: 20px; }
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Boutons */
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-sombre {
+  background: #14142B;
+  color: white;
+}
+
+.btn-jaune {
+  background: #FFC93C;
+  color: #14142B;
+}
+
+.btn-contour {
+  border: 2px solid white;
+  color: white;
+}
+
+.boutons {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+/* En-tête */
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.boutons-entete {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Bannière */
+.banniere {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #2340D9;
+  color: white;
+  padding: 56px;
+  border-radius: 28px;
+}
+
+.banniere-texte {
+  flex: 1;
+}
+
+.banniere-texte h1 {
+  margin-bottom: 20px;
+}
+
+.banniere-image {
+  flex: 1;
+}
+
+.banniere-image img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Fonctionnement */
+.fonctionnement {
+  margin-top: 80px;
+}
+
+.sous-titre {
+  margin: 12px 0 40px;
+  color: #55566B;
+}
+
+.etapes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 3%;
+}
+
+.etapes li {
+  width: 22%;
+  border-top: 3px solid #14142B;
+  padding-top: 16px;
+}
+
+.numero {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 12px;
+  border-radius: 50%;
+  background: #FFC93C;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.etapes h3 {
+  margin-bottom: 6px;
+}
+
+.etapes p {
+  color: #55566B;
+  font-size: 15px;
+}
+
+/* Profils */
+.profils {
+  display: flex;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+.profil {
+  flex: 1;
+  padding: 40px;
+  border-radius: 28px;
+}
+
+.profil h2 {
+  margin-bottom: 12px;
+}
+
+.profil ul {
+  margin: 24px 0 32px;
+}
+
+.profil li {
+  padding: 10px 0;
+  border-top: 1px solid gray;
+}
+
+.profil-annonceur {
+  background: #14142B;
+  color: white;
+}
+
+.profil-proprietaire {
+  background: #FFC93C;
+}
+
+/* Confiance */
+.confiance {
+  max-width: 720px;
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+.confiance h2 {
+  margin-bottom: 12px;
+}
+
+.confiance p {
+  color: #55566B;
+}
+
+/* Pied de page */
+.pied {
+  margin: 80px 0 40px;
+  padding: 56px;
+  border-radius: 28px;
+  background: #14142B;
+  color: white;
+  text-align: center;
+}
+
+.pied .boutons {
+  justify-content: center;
+}
+
+.pied-bas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  font-size: 14px;
+}
